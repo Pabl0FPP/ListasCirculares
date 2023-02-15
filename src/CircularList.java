@@ -21,7 +21,7 @@ public class CircularList {
 
     public void delete(String goal){
         if (head==null){
-            System.out.println("Lista Vacia");
+            System.out.println("Empty List");
         }else if(head==head.getNext()){
             head=null;
         }
